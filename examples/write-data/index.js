@@ -42,7 +42,7 @@ const CONTRACT_DETAILS_READ_RAW = {
 
 // To initialize you can create the SDK like this:
 // Only part required for initialization is the Application ID
-const { init } = require("@digime/digime-sdk-nodejs");
+const { init } = require("@worlddataexchange/digime-sdk-nodejs");
 const sdk = init({ applicationId: APP_ID });
 
 // In this route, we are presenting the user with an action that will take them to digi.me
